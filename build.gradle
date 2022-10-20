@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.prac'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '11'
 
 configurations {
 	compileOnly {
@@ -28,7 +28,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.batch:spring-batch-test'
 	runtimeOnly 'mysql:mysql-connector-java'
-	testRuntimeOnly 'com.h2database:h2'
+//	testRuntimeOnly 'com.h2database:h2'
 	testImplementation 'org.mockito:mockito-inline:4.8.0'
 }
 
